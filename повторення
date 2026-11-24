@@ -1,0 +1,5 @@
+number = int(input("Число: "))
+is_even = number % 2 == 0
+in_range = 10 <= number <= 100
+valid = is_even and in_range
+print(f"Допустиме число: {valid}")
